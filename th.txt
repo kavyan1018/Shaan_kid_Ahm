@@ -1,0 +1,50 @@
+what is html ?
+--> html is a markup language used for creating web pages. HTML uses a system of tags and attributes to define elements such as headings, paragraphs, links, images, and more. 
+
+html --> HyperText Markup Language
+
+whta is static website ?
+--> A static website is a type of website that displays the same content for every user. Static websites are typically built using HTML and CSS, and they do not require server-side processing or databases to deliver content.
+
+what is dynamic website ?
+--> A dynamic website is a type of website that displays different content and allows user interaction by using client-side or server-side scripting. 
+
+
+client-side scripting is executed on the user's browser
+
+server-side scripting is executed on the server before the page is sent to the user's browser
+
+
+html 5 | 2014
+html 4 | 1997
+
+-----------------------------------------------------------------------------
+
+file_name.html 
+file_name.htm 
+
+-----------------------------------------------------------------------------
+
+<!DOCTYPE html>
+--> Document Type HTML
+
+<html lang="en">
+--> in html we use english language
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+            what we write in this position it is visible in the browser
+</body>
+</html>
+
+
+tags :
+
+    <h1> --> open tags
+    </h1> --> close tags
+
+    
