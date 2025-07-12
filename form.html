@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 
+        First Name ,Last Name,Email,Phone Number,Address,Gender,Date of Birth,Hobbies,Country,State,City,Password,Confirm Password,Submit Button,Reset Button,Terms and Conditions Checkbox,File Upload
+    -->
+
+    <form>
+
+        <label for="fn">First Name : </label>
+        <input type="text" id="fn" placeholder="Enter First Name" required>
+
+        <br><br>
+
+        <label for="ln">Last Name : </label>
+        <input type="text" id="ln" placeholder="Enter Last Name" required>
+
+        <br><br>
+
+        <label for="email">Email : </label>
+        <input type="email" id="email" placeholder="Enter Email" required>
+
+        <br><br>
+
+        <label for="phone">Phone Number : </label>
+        <input type="tel" id="phone" placeholder="Enter Phone Number" required>
+
+        <br><br>
+
+        <label for="address">Address : </label>
+        <textarea name="" id="address" cols="20" rows="5"></textarea>
+
+        <br><br>
+
+        <label for="ge">Gender</label>
+        <input type="radio" id="ge" name="ge">
+        <label for="male">Male</label>
+        <input type="radio" id="ge" name="ge">
+        <label for="female">Female</label>
+
+        <br><br>
+
+        <label for="dob">Date of Birth : </label>
+        <input type="date" id="dob">
+
+        <br><br>
+
+        <label for="hobbies">Hobbies : </label>
+        <input type="checkbox" id="hobbies" name="hobbies" value="Reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="hobbies" name="hobbies" value="Traveling">
+        <label for="traveling">Traveling</label>
+        <input type="checkbox" id="hobbies" name="hobbies" value="Gaming">
+        <label for="gaming">Gaming</label>
+
+        <br><br>
+
+        <label for="country">Country : </label>
+        <!-- drop-down -->
+
+        <select name="" id="country">
+            <option value="" disabled selected>Select Country</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+            <option value="uk">UK</option>
+        </select>
+
+        <br><br>
+
+        <label for="state">State : </label>
+        <input for="" id="state"></input>
+
+        <br><br>
+
+        <label for="city">City : </label>
+        <input type="text" id="city" placeholder="Enter City">
+
+        <br><br>
+
+        <label for="password">Password : </label>
+        <input type="password" id="password" placeholder="Enter Password" required>
+
+        <br><br>
+
+        <label for="confirm-password">Confirm Password : </label>
+        <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+
+
+        <br><br>
+
+        <input type="submit" value="Conformation here" >
+
+    </form>
+
+</body>
+</html>
